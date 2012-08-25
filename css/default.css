@@ -1,0 +1,165 @@
+h3 {
+    background-color: #ed8029;
+    font-size: 36px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 5px 2px #393a37;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: 3s ease;
+    transition: 3s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#internDefense q::before,
+#internDefense q::after{
+    content: '';
+}
+
+#internDefense p {
+    margin: 0;
+}
+
+.landPage h1 {
+    text-align: center;
+}
+
+#internDefense .landPage p{
+    margin-left: 650px;
+}
+
+#firstPage ul {
+    margin-left: 80px;
+    color: #333;
+}
+#firstPage ul li p{
+    font-size: 24px;
+    text-indent: 2em
+}
+
+#aboutIntern q {
+    font-family: "League-Gothic", Courier;
+    color: #222;
+    text-shadow: 0 2px 3px #666;
+    margin-left: 40px;
+    font-size: 45px;
+    margin-top: 200px;
+}
+
+.introduce ul {
+    margin-top: 100px;
+}
+
+
+.introduce ul li{
+    margin-bottom: 1em;
+}
+
+.introduce ul li span {
+    font-weight: bold;
+}
+
+.introduce ul li::before {
+    content: '';
+}
+
+.zhushou ul {
+    margin-left: 10%;
+}
+
+.zhushou .zhushouhover {
+    display: none;
+    left: 400px;
+    position: absolute;
+    top: 303px;
+}
+
+.zhushou li a {
+    color: #fd8712;
+    text-decoration: none;
+}
+.zhushou li a:hover .zhushouhover {
+    display: inline;
+}
+
+.huihui {
+    list-style: none outside;
+}
+
+ul.huihui a::after {
+    content: attr(title);
+}
+
+ul.huihui a {
+    background:white;
+    color: #333;
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    width: auto;
+    padding: 10px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0 ,0, .25);
+    -webkit-transform: rotate(-3deg);
+    -webkit-transition: -webkit-transform .15s linear;
+    outline: 0;
+}
+
+ul.huihui a:hover {
+    color: #fd8712;
+    font-weight: bold;
+    -webkit-transform: scale(1.25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0 , 0, .5);
+    position: relative;
+    z-index: 5;
+}
+ul.huihui li:nth-child(3n) a {
+    -webkit-transform:none;
+    position: relative;
+    top: -5px;
+}
+
+ul.huihui li a img {
+    display: block;
+    width: 190px;
+    margin-bottom: 12px;
+}
+ul.huihui li::before {
+    content: '';
+}
+
+.thanks h1 {
+    text-align: center;
+}
+
+.thanks p {
+    text-align: center;
+}
+.thanks p span {
+    margin-right: 40px;
+    font-weight: bold;
+}
+.study li a {
+    color: #fd8712;
+    text-decoration: none;
+}
+#gain li {
+    color: #333;
+}
+#gain li p {
+    text-indent: 2em;
+    color: #666;
+    font-size: 24px;
+}
+
+#bluePic .hopes {
+    text-align: left;
+    margin-top: 0;
+    font-size: 36px;
+}
+
+#bluePic ul {
+    margin-top: 10px;
+    text-indent: 2em;
+}
